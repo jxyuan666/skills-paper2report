@@ -5,7 +5,7 @@
 
 ---
 
-## 📁 项目结构
+## 一、📁 项目结构
 
 ```
 skills/                                          ← Claude Code 工作区根目录
@@ -34,7 +34,7 @@ skills/                                          ← Claude Code 工作区根目
         └── report_template.docx                 ← 📋 ICM-107 占位符模板
 ```
 
-### 各文件职责
+### 二、各文件职责
 
 | 文件 | 职责 | 调用关系 |
 |------|------|----------|
@@ -51,7 +51,7 @@ skills/                                          ← Claude Code 工作区根目
 
 ---
 
-## 🚀 Quickstart
+## 三、🚀 Quickstart
 
 ### 环境
 
@@ -100,7 +100,7 @@ python src/validate_output.py --docx report.docx --fill-json outputs/fill.json -
 
 ---
 
-## ⚙️ 管线流程
+## 四、⚙️ 管线流程
 
 ```
 ┌──────────┐     ┌──────────────┐     ┌──────────────┐     ┌──────────┐
@@ -123,7 +123,7 @@ python src/validate_output.py --docx report.docx --fill-json outputs/fill.json -
 
 ---
 
-## 📐 数据模型
+## 五、📐 数据模型
 
 本项目以 `schema.py` 作为数据结构的单一事实来源，LLM 输出与 Word 填充均受其约束。
 
@@ -165,7 +165,7 @@ python src/validate_output.py --docx report.docx --fill-json outputs/fill.json -
 
 ---
 
-## 🎨 排版规范
+## 六、🎨 排版规范
 
 以下规范硬编码于 `fill_docx.py` 的 `FONT_STYLE` 常量中。
 
@@ -181,7 +181,7 @@ python src/validate_output.py --docx report.docx --fill-json outputs/fill.json -
 
 ---
 
-## 🔧 故障排查
+## 七、🔧 故障排查
 
 | 现象 | 原因 | 措施 |
 |------|------|------|
