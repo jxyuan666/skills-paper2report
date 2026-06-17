@@ -1,0 +1,26 @@
+# Generated outputs (root level only)
+/*.docx
+/*.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Runtime outputs
+outputs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+~$*.docx
+~$*.xlsx
