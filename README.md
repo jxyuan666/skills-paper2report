@@ -1,6 +1,7 @@
 # 📄 paper-report-fill
 
-> 从学术论文 PDF 自动生成符合 ICM-107 文献汇报模板的规范 Word 文档。
+> 从学术论文 PDF 自动生成符合 templates 规范 Word 文档。
+> 包括图
 
 ---
 
