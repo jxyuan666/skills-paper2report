@@ -193,6 +193,14 @@ python src/validate_output.py --docx report.docx --fill-json outputs/fill.json -
 
 ---
 
+## 八、📸 最终示例
+
+下图展示了从论文 PDF 自动生成 ICM-107 文献汇报 Word 文档的完整输出效果：
+
+![最终示例输出](image.png)
+
+---
+
 ## 📄 许可
 
 MIT
